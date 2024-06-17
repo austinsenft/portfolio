@@ -1,8 +1,8 @@
-import { useState, useEffect} from "react"; 
-import {Link} from "react-scroll"
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll"
 
 function Navbar() {
-    const [navActive, setNavActive] = useState(false); 
+    const [navActive, setNavActive] = useState(false);
 
     const toggleNav = () => {
         setNavActive(!navActive)
@@ -27,41 +27,108 @@ function Navbar() {
     }, []);
 
     useEffect(() => {
-        if(window.innerWidth <= 1200) {
-            closeMenu; 
+        if (window.innerWidth <= 1200) {
+            closeMenu;
         }
     }, []);
 
     return (
-        <nav className={`navbar ${navActive ? "active" : ""}`}> 
+        <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img 
-                    height={100}
-                    width={100}
-                    src="./img/leaf_favicon.svg" 
+                <img
+                    height={55}
+                    width={55}
+                    src="./img/leaf_favicon.svg"
                     alt="Logo" />
             </div>
-            <a 
+            <a
                 className={`nav__hamburger ${navActive ? "active" : ""}`}
-                onClick={toggleNav}> 
+                onClick={toggleNav}>
                 {/* Hamburger menu lines */}
                 <span className="nav__hamburger__line">
                 </span>
                 <span className="nav__hamburger__line">
                 </span>
                 <span className="nav__hamburger__line">
-                </span>                
-            </a> 
+                </span>
+            </a>
 
             <div className={`navbar--items ${navActive ?
                 "active" : ""}`}>
-               <ul>
+                <ul>
                     <li>
-                        <Link>Home</Link>
+                        <Link
+                            onClick={closeMenu}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="heroSection"
+                            className="navbar--content"
+                        >
+                            Home
+                        </Link>
                     </li>
-               </ul>
+                    <li>
+                        <Link
+                            onClick={closeMenu}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="MyPortfolio"
+                            className="navbar--content"
+                        >
+                            Portfolio
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={closeMenu}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="AboutMe"
+                            className="navbar--content"
+                        >
+                            About Me
+                        </Link>
+                    </li>
+                    <li>
+
+                        <Link
+                            onClick={closeMenu}
+                            activeClass="navbar--active-content"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            to="Testimonials"
+                            className="navbar--content"
+                        >
+                            Testimonials
+                        </Link>
+
+                    </li>
+                </ul>
 
             </div>
+            <Link
+                onClick={closeMenu}
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Contact"
+                className="btn btn-outline-primary"
+            >
+                Contact Me
+            </Link>
         </nav>
     )
 }
