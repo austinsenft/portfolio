@@ -2,7 +2,7 @@
     "skills": [
         {
             "id": "1", 
-            "src": "./img/product-chain-1.png", 
+            "src": "./img/feather-pen-1.png", 
             "title": "Front-End", 
             "description": "fill this in with details later"
         }, 
@@ -20,7 +20,7 @@
         }, 
         {
             "id": "4", 
-            "src": "./img/feather-pen-1.png", 
+            "src": "./img/product-chain-1.png",
             "title": "Web Applications", 
             "description": "fill this in with details later"
         }
