@@ -36,8 +36,8 @@ function Navbar() {
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
                 <img
-                    height={55}
-                    width={55}
+                    height={65}
+                    width={65}
                     src="./img/leaf_favicon.svg"
                     alt="Logo" />
             </div>

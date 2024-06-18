@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 :root {
   --primary: #5e3bee; 
+  --green: #49A010;
   --heading-color: #282938; 
   --bg-shade: #f5fcff; 
   --github: #e62872; 
