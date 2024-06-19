@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 :root {
   --primary: #5e3bee; 
+  --teal: #006867;
   --green: #49A010;
   --heading-color: #282938; 
   --bg-shade: #f5fcff; 
@@ -70,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn-github {
   color: var(--white); 
-  background-color: var(--green);
+  background-color: var(--primary);
   border: var(--github); 
   display: flex; 
   flex-direction: row; 
@@ -82,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn-github:hover {
   color: var(--white); 
-  background-color: var(--primary);
+  background-color: var(--teal);
 }
 
 /* Global CSS End */ 

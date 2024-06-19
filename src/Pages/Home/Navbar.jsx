@@ -38,7 +38,7 @@ function Navbar() {
                 <img
                     height={65}
                     width={65}
-                    src="./img/leaf_favicon.svg"
+                    src="./img/favicon.png"
                     alt="Logo" />
             </div>
             <a
