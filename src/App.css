@@ -369,8 +369,11 @@ h3 {
   border-radius: 8px;
   width: 100%
 }
+
 .portfolio--section--img > img {
   width: 100%;
+  border: 1px solid black;
+
 }
 .portfolio--section--card {
   display: flex; 
@@ -403,7 +406,7 @@ h3 {
   font-weight: 600;
 }
 .portfolio--section--card:hover path {
-  stroke: var(--green);
+  stroke: var(--teal);
 }
 
 /* Portfolio Style End */

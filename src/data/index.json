@@ -28,22 +28,22 @@
     "portfolio": [
         {
             "id": "1", 
-            "src": "./img/placeholder-image.png", 
-            "title": "Name 1", 
+            "src": "./img/project_1.png", 
+            "title": "Project 1", 
             "description": "fill this in with details later",
             "link": "View on Github"
         },
         {
             "id": "2", 
-            "src": "./img/placeholder-image-1.png", 
-            "title": "Name 2", 
+            "src": "./img/project_2.png", 
+            "title": "Project 2", 
             "description": "fill this in with details later", 
             "link": "View on Github"
         },
         {
             "id": "3", 
-            "src": "./img/placeholder-image-2.png", 
-            "title": "Name 3", 
+            "src": "./img/project_3.png", 
+            "title": "Project 3", 
             "description": "fill this in with details later", 
             "link": "View on Github"
         }
