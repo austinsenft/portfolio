@@ -16,7 +16,7 @@ export default function HeroSection() {
                     
                 </div>
                 <button className="btn btn-primary">
-                    Get In Touch
+                <a href="mailto:austinsenft@gmail.com">Get In Touch</a>
                 </button>
 
             </div>

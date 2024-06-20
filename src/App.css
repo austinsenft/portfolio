@@ -184,7 +184,7 @@ h3 {
 /* Navbar Content */
 .navbar--content{ 
   color: var(--darkblue); 
-  font-size: 16px; 
+  font-size: 18px; 
   font-style: normal; 
   font-weight: 400; 
   line-height: 24px; 
@@ -242,6 +242,7 @@ h3 {
 .hero--section--img > img:hover{ 
   border: 1px solid; 
   color: var(--primary);
+  margin:-1px;
 }
 
 .hero--section--img > img{ 
@@ -259,6 +260,7 @@ h3 {
   justify-content: center; 
   align-items: flex-start; 
   gap: 106.667px; 
+  margin-bottom: 6px;
 }
 .skills--section--heading {
   color: var(--heading-color); 
@@ -286,6 +288,8 @@ h3 {
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
+  margin-bottom: -4px;
+  /* can offset hover disturbing other elements with negative margin */
 }
 .skills--section--card:hover  
 .skills--section--description {
@@ -338,6 +342,7 @@ h3 {
 .about--section--img > img:hover{ 
   border: 1px solid; 
   color: var(--primary);
+  margin:-1px;
 }
 .about--section--img > img {
   width: 100%; 
