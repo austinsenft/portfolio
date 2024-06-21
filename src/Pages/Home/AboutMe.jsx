@@ -11,7 +11,8 @@ export default function AboutMe() {
             <p className="hero--section--description">
              
             I am a coding bootcamp graduate who is looking to level up my career.
-            With 6 years experience in Tech Support, 1 year experience in Data Analytics, completion of an intensive 14-week Coding Bootcamp, along with multiple personal projects, I am ready to take the next step and get paid to develop while growing my skills.
+            
+            With 6 years experience in Tech Support, 1 year experience in Data Analytics, completion of an intensive 14-week Coding Bootcamp, along with multiple personal projects, I am ready to take the next step and get paid to develop while growing my skills. 
             </p>
             <p className="hero--section--description">
             When I’m not at my computer, I like to spend my time hiking, keeping fit, and listening to music.

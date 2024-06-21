@@ -10,14 +10,17 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section-description">
-                    Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React, Python, SQL and all things web development. The unique combination of creativity, logic, and technology drives my excitement and passion for all forms of development.
+                    Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React, Python, SQL and all things web development. 
+                    <br /> The unique combination of creativity, logic, and technology drives my excitement and passion for all forms of development. 
                     </p>
                     
                 </div>
+                <div className="getintouch--div">
                 <button className="btn btn-primary">
                     {/* Don't want clicked link to have underline or be blue */}
                 <a href="mailto:austinsenft@gmail.com" style={{textDecoration: 'none', color: 'inherit'}} >Get In Touch</a>
                 </button>
+                </div>
 
             </div>
             <div className="hero--section--img">

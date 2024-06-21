@@ -217,6 +217,9 @@ h3 {
   align-items: flex-start; 
   gap: 21.333px; 
 }
+.getintouch--div{
+  margin-top: 21.333px;
+}
 .hero--section--content--box > button{
   margin-top: 21.333px;
 }
@@ -600,14 +603,19 @@ input[type="checkbox"] {
     flex-direction: column-reverse;
     padding-bottom: 70px;
   }
-  .hero--section--content--box > button{
+  .hero--section--content--box > button {
     margin-top: 21.333px;
-    margin-left: 35px;
   }
   .hero--section--title,
   .hero--section-description,
   .footer--content {
     text-align: center;
+  }
+  .getintouch--div{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
   }
   .skills--section--container,
   .about--section,
