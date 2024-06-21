@@ -21,7 +21,7 @@ export default function HeroSection() {
 
             </div>
             <div className="hero--section--img">
-                <img src="./img/hero_img.png" alt="Hero Section" style={{height:500, width:550}} />
+                <img src="./img/hero_img.png" alt="Hero Section"  />
             </div>
         </section>
     )
