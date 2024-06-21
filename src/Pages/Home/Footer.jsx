@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+import { Link as Linker } from "react-router-dom";
+// If you want both scroll and router-dom need to alias 
 import React from "react";
 
 function Footer() {
@@ -97,7 +99,7 @@ function Footer() {
         <div className="footer--social--icon">
           <ul>
             <li>
-              <Link
+              <Linker
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -107,10 +109,10 @@ function Footer() {
                 className="text-sm"
               >
                 Privacy Policy
-              </Link>
+              </Linker>
             </li>
             <li>
-              <Link
+              <Linker
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -120,10 +122,10 @@ function Footer() {
                 className="text-sm"
               >
                 Terms of Service
-              </Link>
+              </Linker>
             </li>
             <li>
-              <Link
+              <Linker
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -133,7 +135,7 @@ function Footer() {
                 className="text-sm"
               >
                 Cookies Settings
-              </Link>
+              </Linker>
             </li>
           </ul>
         </div>

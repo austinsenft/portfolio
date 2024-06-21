@@ -10,8 +10,7 @@ export default function HeroSection() {
                         Developer
                     </h1>
                     <p className="hero--section-description">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    <br /> Nulla repellat, accusamus laboriosam enim explicabo velit voluptate commodi cupiditate
+                    Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React, Python, SQL and all things web development. The unique combination of creativity, logic, and technology drives my excitement and passion for all forms of development.
                     </p>
                     
                 </div>

@@ -4,25 +4,25 @@
             "id": "1", 
             "src": "./img/feather-pen-1.png", 
             "title": "Front-End", 
-            "description": "fill this in with details later"
+            "description": "Languages and frameworks used include Javascript, React, Node.js, as well as Tailwind CSS, Bootstrap, and Dracula UI for UI/CSS. I love the freedom of expression with React in particular for web development."
         }, 
         {
             "id": "2", 
             "src": "./img/tag-1.png", 
             "title": "Back-End", 
-            "description": "fill this in with details later"
+            "description": "Technologies and languages I have used include Python, Java, MongoDB, Microsoft SQL Server and AstraDB. I have also leveraged SQL and Postman for looking into back-end and API issues."
         }, 
         {
             "id": "3", 
             "src": "./img/feather-pen-2.png", 
             "title": "Data Analytics", 
-            "description": "fill this in with details later"
+            "description": "I have used SQL as well as Snowflake and Looker to create queries that were used as views to power merchant-facing dashboards. Data is the heart of any organization and being able to make informed decisions based on accurate data is imperative for any organization."
         }, 
         {
             "id": "4", 
             "src": "./img/product-chain-1.png",
             "title": "Web Applications", 
-            "description": "fill this in with details later"
+            "description": "I have gone through the process of launching websites on AWS, and Netlify. I have also worked with Docker and Kubernetes for containerization. Being able to take a project from inception to a live product feels wonderful as a developer."
         }
     ], 
     "portfolio": [
@@ -30,7 +30,7 @@
             "id": "1", 
             "src": "./img/project_1.png", 
             "title": "Gothic CRM", 
-            "description": "Full Create, Read, Update, and Delete (CRUD) functionality with colors that change dynamically upon status updates. Database: AstraDB. Styled with Dracula UI",
+            "description": "Full Create, Read, Update, and Delete (CRUD) functionality with colors that change dynamically upon status updates. Database: AstraDB. Styled with Dracula UI.",
             "link": "View on Github", 
             "url" : "https://github.com/austinsenft/goth-crm"
             
@@ -39,7 +39,7 @@
             "id": "2", 
             "src": "./img/project_2.png", 
             "title": "Contacts", 
-            "description": "This is a simple Python and React CRUD app with real backend using SQLAlchemy. It allows you to Create Read Update and Delete contacts. Styled with Tailwind CSS", 
+            "description": "This is a simple Python and React CRUD app with real backend using SQLAlchemy. It allows you to Create Read Update and Delete contacts. Styled with Tailwind CSS.", 
             "link": "View on Github", 
             "url" : "https://github.com/austinsenft/contacts"
         },
@@ -47,7 +47,7 @@
             "id": "3", 
             "src": "./img/project_3.png", 
             "title": "Notes App / Todo App", 
-            "description": "This is a React Notes app that uses localStorage to save items. This one has been deployed and you can find a link for it on my Github. Styled with Dracula UI", 
+            "description": "This is a React Notes app that uses localStorage to save items. This one has been deployed and you can find a link for it on my Github. Styled with Dracula UI.", 
             "link": "View on Github", 
             "url" : "https://github.com/austinsenft/notes-app"
         }

@@ -1,11 +1,11 @@
 export default function ContactMe() {
     return (
       <section id="Contact" className="contact--section">
-        <div>
+        <div >
           <p className="sub--title">Get In Touch</p>
-          <h2>Contact Me</h2>
+          <h2 className="contact--header">Contact Me</h2>
           <p className="text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+            Interested in connecting? Please send me a message! I would love to hear from you.
           </p>
         </div>
         {/* Formspree is awesome */}
