@@ -8,8 +8,7 @@ export default function MyPortfolio() {
         <div className="portfolio--container">
           <p className="sub--title">Projects</p>
           <h2 className="section--heading">My Portfolio</h2>
-        </div>
-        <div>
+          <div>
           <a href="https://github.com/austinsenft" style={{textDecoration: 'none'}}>
             <button className="btn btn-github">
               <svg
@@ -31,6 +30,8 @@ export default function MyPortfolio() {
             </button>
           </a>
         </div>
+        </div>
+        
       </div>
       <div className="portfolio--section--container">
         {/* Mapping over portfolio projects referenced in index.json */}

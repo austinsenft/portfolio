@@ -98,7 +98,7 @@ h1 {
 
 /* Heading 2 */
 h2 {
-  font-size: 48px; 
+  font-size: 40px; 
   font-weight: 700; 
   line-height: 58px; 
 }
@@ -627,10 +627,7 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
   }
-  .btn-github {
-    display: inline-block;
-    margin-left: 10px;
-  }
+
   .skills--section,
   .portfolio--container,
   .hero--section--content,
