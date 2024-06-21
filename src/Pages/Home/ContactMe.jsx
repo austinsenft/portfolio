@@ -8,7 +8,8 @@ export default function ContactMe() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
           </p>
         </div>
-        <form className="contact--form--container">
+        {/* Formspree is awesome */}
+        <form action="https://formspree.io/f/xyzggkpb" method="post" className="contact--form--container">
           <div className="container">
             <label htmlFor="first-name" className="contact--label">
               <span className="text-md">First Name</span>
@@ -55,9 +56,9 @@ export default function ContactMe() {
             <span className="text-md">Choose a topic</span>
             <select id="choose-topic" className="contact--input text-md">
               <option>Select One...</option>
-              <option>Item 1</option>
-              <option>Item 2</option>
-              <option>Item 3</option>
+              <option>I want to hire you</option>
+              <option>I want to chat</option>
+              <option>I have a question</option>
             </select>
           </label>
           <label htmlFor="message" className="contact--label">

@@ -15,7 +15,7 @@
         {
             "id": "3", 
             "src": "./img/feather-pen-2.png", 
-            "title": "UI & UX Design", 
+            "title": "Data Analytics", 
             "description": "fill this in with details later"
         }, 
         {
@@ -30,22 +30,26 @@
             "id": "1", 
             "src": "./img/project_1.png", 
             "title": "Gothic CRM", 
-            "description": "fill this in with details later",
-            "link": "View on Github"
+            "description": "Full Create, Read, Update, and Delete (CRUD) functionality with colors that change dynamically upon status updates. Database: AstraDB. Styled with Dracula UI",
+            "link": "View on Github", 
+            "url" : "https://github.com/austinsenft/goth-crm"
+            
         },
         {
             "id": "2", 
             "src": "./img/project_2.png", 
-            "title": "Project 2", 
-            "description": "fill this in with details later", 
-            "link": "View on Github"
+            "title": "Contacts", 
+            "description": "This is a simple Python and React CRUD app with real backend using SQLAlchemy. It allows you to Create Read Update and Delete contacts. Styled with Tailwind CSS", 
+            "link": "View on Github", 
+            "url" : "https://github.com/austinsenft/contacts"
         },
         {
             "id": "3", 
             "src": "./img/project_3.png", 
-            "title": "Project 3", 
-            "description": "fill this in with details later", 
-            "link": "View on Github"
+            "title": "Notes App / Todo App", 
+            "description": "This is a React Notes app that uses localStorage to save items. This one has been deployed and you can find a link for it on my Github. Styled with Dracula UI", 
+            "link": "View on Github", 
+            "url" : "https://github.com/austinsenft/notes-app"
         }
     ]    
    

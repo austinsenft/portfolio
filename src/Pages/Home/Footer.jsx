@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import React from "react";
 
 function Footer() {
@@ -68,7 +68,7 @@ function Footer() {
           <ul>         
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/austin-senft-873a15103/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -103,7 +103,7 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Privacy_Policy"
+                to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                 className="text-sm"
               >
                 Privacy Policy
@@ -116,7 +116,7 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Terms_of_Service"
+                to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                 className="text-sm"
               >
                 Terms of Service
@@ -129,7 +129,7 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Cookies_Settings"
+                to="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
                 className="text-sm"
               >
                 Cookies Settings

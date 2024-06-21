@@ -16,7 +16,8 @@ export default function HeroSection() {
                     
                 </div>
                 <button className="btn btn-primary">
-                <a href="mailto:austinsenft@gmail.com">Get In Touch</a>
+                    {/* Don't want clicked link to have underline or be blue */}
+                <a href="mailto:austinsenft@gmail.com" style={{textDecoration: 'none', color: 'inherit'}} >Get In Touch</a>
                 </button>
 
             </div>
